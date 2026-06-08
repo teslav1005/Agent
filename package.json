@@ -1,0 +1,29 @@
+{
+  "name": "afnan-ai-agent-v3",
+  "version": "3.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "ai",
+    "automation",
+    "browser",
+    "gemini",
+    "agent"
+  ],
+  "author": "Dr. MK",
+  "license": "MIT",
+  "description": "Afnan AI v3 - Ultra Agent with Gemini 3.1 Flash Lite",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "playwright": "^1.48.0",
+    "socket.io": "^4.8.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.14.0"
+  }
+}
